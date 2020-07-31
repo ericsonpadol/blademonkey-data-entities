@@ -1,6 +1,6 @@
 {
   "name": "blademonkey-data-entities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Project Auxy Data Schema",
   "main": "app.js",
   "scripts": {
