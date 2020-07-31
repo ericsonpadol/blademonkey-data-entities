@@ -21,6 +21,10 @@ const AccountSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
+  mobileNumber: {
+    type: String,
+    required: true,
+  }
 });
 
 const Account = mongoose.model('account', AccountSchema);
