@@ -24,7 +24,8 @@ const AccountSchema = new mongoose.Schema({
   mobileNumber: {
     type: String,
     required: true,
-  }
+    unique: true,
+  },
 });
 
 const Account = mongoose.model('account', AccountSchema);
