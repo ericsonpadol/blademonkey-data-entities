@@ -1,0 +1,45 @@
+{
+  "name": "blademonkey-data-entities",
+  "version": "1.0.0",
+  "description": "Project Auxy Data Schema",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app",
+    "start:dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "to follow"
+  },
+  "keywords": [
+    "blademonkey",
+    "auxy",
+    "data",
+    "schema",
+    "mongodb"
+  ],
+  "author": "ericson.padol@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.26",
+    "shortid": "^2.2.15",
+    "uuid": "^8.3.0",
+    "winston": "^3.3.3"
+  }
+}
