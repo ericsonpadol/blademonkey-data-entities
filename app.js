@@ -1,6 +1,6 @@
 const DB = require('./config/db');
 
-// connect to database
-DB.connectDB();
+// export schema
+const Account = require('./src/models/account.model');
 
-module.exports = DB;
+module.exports = { DB, Account };
